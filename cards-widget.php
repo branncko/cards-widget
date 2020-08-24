@@ -19,7 +19,7 @@ class Card extends WP_Widget {
     public function __construct()
     {
         $widget_ops = array (
-            'classname' => 'card'
+            'classname' => 'card',
             'description' => 'Exibe o conteúdo em um card'
 
         );
