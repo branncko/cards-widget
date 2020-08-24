@@ -59,6 +59,12 @@ class Card extends WP_Widget {
                 <label for="<?php echo $this ->get_field_name('title'); ?>">
                     <?php echo 'Título:' ?>
                 </label>
+                <input type="text" 
+                       class="widefat"
+                       id="<?php echo $this->get_field_id('title'); ?>"
+                       name="<?php echo $this->get_field_name('title'); ?>"
+                       value="<?php echo esc_attr($title); ?>"
+                >
             </p>
             <?php
     }
